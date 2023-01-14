@@ -12,7 +12,7 @@ header(" Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Header
 
 // mengakses tajuk khusus yang ditambahkan dalam aturan AutoResponder Anda
 // ganti XXXXXX_XXXX dengan nama header dalam UPPERCASE (dan dengan '-' diganti dengan '_')
-$ myheader = $ _SERVER [ 'HTTP_XXXXXX_XXXX' ];
+$ myheader = $ _SERVER [ 'HTTP_9908_XXXX' ];
   
 // dapatkan data yang diposting
 $ data = json_decode(file_get_contents(" php://input "));
